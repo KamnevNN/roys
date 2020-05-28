@@ -330,3 +330,16 @@ footer .pay-images img {
 .relative {
   position: relative;
 }
+
+.iframe {
+  width: 100%;
+  background: transparent;
+  display: block;
+  border: 7px solid #868686;
+  margin: 17px auto;
+}
+
+.iframe iframe {
+  width: 100%;
+  height: 400px;
+}
