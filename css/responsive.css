@@ -1,0 +1,120 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+/* 
+	##Device = Laptops, Desktops
+	##Screen = B/w 1025px to 1280px
+ */
+/* 
+	##Device = Tablets, Ipads (portrait)
+	##Screen = B/w 768px to 1024px
+ */
+/* 
+	##Device = Tablets, Ipads (landscape)
+	##Screen = B/w 768px to 1024px
+ */
+/* 
+	##Device = Low Resolution Tablets, Mobiles (Landscape)
+	##Screen = B/w 481px to 767px
+ */
+/* 
+	##Device = Most of the Smartphones Mobiles (Portrait)
+	##Screen = B/w 320px to 479px
+ */
+@media (max-width: 992px) {
+  body {
+    background-size: contain;
+  }
+  .container {
+    padding: 0 10px;
+  }
+  header {
+    background-size: cover;
+    width: 100%;
+  }
+  .main__header {
+    padding: 20px 15px;
+    font-size: 20px;
+  }
+  .main-images > div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-contacts {
+    width: 100%;
+    display: block;
+    float: none;
+  }
+  .main-right {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .main-right {
+    padding-left: 0;
+  }
+  .main-right__list {
+    -webkit-column-count: 1;
+            column-count: 1;
+  }
+  footer .pay-images img {
+    margin-top: 2px;
+  }
+  .logo {
+    max-width: 100%;
+  }
+  .header__block-icon-img {
+    margin-right: 0;
+  }
+  .header__block-icon-img img {
+    max-width: 70px;
+  }
+}
+
+@media (max-width: 500px) {
+  .main-contacts__title-icon, .header__block-icon-img {
+    display: none;
+  }
+}
+
+@media (max-width: 470px) {
+  .action-button span {
+    font-size: 14px;
+  }
+  .action-button u {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 460px) {
+  .header {
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 380px) {
+  .header {
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 350px) {
+  .action-button span {
+    font-size: 12px;
+  }
+  .action-button u {
+    font-size: 16px;
+  }
+  .header__block-icon-text span {
+    font-size: 14px;
+  }
+  .header__block-icon-text {
+    font-size: 11px;
+  }
+}
