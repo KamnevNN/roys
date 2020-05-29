@@ -1,12 +1,14 @@
 $bodyBgColor: #161616;
 $bodyBgImage: url("../img/body-bg.png");
-$headerBgImage: url("../img/header-bg.png");
+$headerBgImage: url("../img/header-bg-2.png");
 $mainWrapperBg: #3d3d3d;
 $colorTitle: #fff;
 $roundIconBg: #fff;
 $colorData: #fff;
 $actionBtnColor: #ffdf00;
 $footerText: #fff;
+$mainShadow: rgba(0,0,0,.75);
+$mainDescBorderCol: #7f7f7f;
 
 body {
 	background-color: $bodyBgColor;
@@ -62,7 +64,7 @@ main{
 	margin-top: -212px;
 }
 .main {
-	box-shadow: 0 0 43px rgba(0,0,0,.75);
+	box-shadow: 0 0 43px $mainShadow;
 	border-radius:2px;
 	&__header {
 		/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffc600+0,ff9100+100 */
@@ -91,10 +93,10 @@ main{
 	}
 
 	&__desfription {
-		color: rgb(255, 255, 255);
+		color: $colorData;
 		line-height: 1.429;
 		padding:20px 11px 20px 20px;
-		border-bottom: 1px solid #7f7f7f;
+		border-bottom: 1px solid $mainDescBorderCol;
 	}
 
 	&__data {

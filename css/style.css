@@ -15,7 +15,7 @@ body {
 }
 
 header {
-  background: url("../img/header-bg.png");
+  background: url("../img/header-bg-2.png");
   height: 335px;
   background-position: top center;
   background-repeat: no-repeat;
@@ -77,7 +77,7 @@ main {
 }
 
 .main__desfription {
-  color: white;
+  color: #fff;
   line-height: 1.429;
   padding: 20px 11px 20px 20px;
   border-bottom: 1px solid #7f7f7f;
