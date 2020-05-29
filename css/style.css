@@ -259,6 +259,10 @@ main {
   font-weight: bold;
 }
 
+.main-right .main-contacts {
+  margin: 20px auto 25px;
+}
+
 .action-button {
   position: relative;
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#bfbfbf+0,656565+100 */

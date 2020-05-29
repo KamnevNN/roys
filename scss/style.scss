@@ -2,6 +2,7 @@ $bodyBgColor: #161616;
 $bodyBgImage: url("../img/body-bg.png");
 $headerBgImage: url("../img/header-bg-2.png");
 $mainWrapperBg: #3d3d3d;
+$colorMainTitle: rgb(22, 22, 22);
 $colorTitle: #fff;
 $roundIconBg: #fff;
 $colorData: #fff;
@@ -77,7 +78,7 @@ main{
 		padding:21px 0;
 		text-align:center;
 		font-size: 24px;
-		color: rgb(22, 22, 22);
+		color: $colorMainTitle;
 		text-shadow: 0px 1px 0px rgba(255, 209, 51, 1);
 		line-height: 1.2;
 		font-weight: bold;
@@ -249,6 +250,9 @@ main{
 					font-weight: bold;
 				}
 			}
+		}
+		& .main-contacts {
+			margin:20px auto 25px;
 		}
 }
 .action-button {
