@@ -37,11 +37,6 @@
     padding: 20px 15px;
     font-size: 20px;
   }
-  .main-images > div {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
 }
 
 @media (max-width: 768px) {
