@@ -139,8 +139,7 @@ main {
   height: auto;
   width: 100%;
   border: 1px solid #3d3d3d;
-  -o-object-fit: cover;
-     object-fit: cover;
+  /**/
 }
 
 .main-contacts {
